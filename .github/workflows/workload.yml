@@ -6,7 +6,7 @@ on:
 
 jobs:
   heavy-computation:
-    runs-on: tenki-local-ubuntu-22.04-small-2c-4g
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
@@ -146,7 +146,7 @@ jobs:
           path: workflow_duration.csv
 
   heavy-computation-v2:
-    runs-on: tenki-local-ubuntu-22.04-small-2c-4g
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
