@@ -6,7 +6,7 @@ on:
 
 jobs:
   heavy-computation:
-    runs-on: tenki-local-macos-26-2c-4g
+    runs-on: tenki-local-macos-26-4c-16g
 
     steps:
       - name: Checkout
@@ -146,7 +146,7 @@ jobs:
           path: workflow_duration.csv
 
   heavy-computation-v2:
-    runs-on: tenki-local-macos-26-2c-4g
+    runs-on: tenki-local-macos-26-4c-16g
 
     steps:
       - name: Checkout
